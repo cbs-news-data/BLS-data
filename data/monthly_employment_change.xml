@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chart>
+  <title>Monthly changes in employment</title>
+  <subtitle>Nonfarm payroll employment, seasonally adjusted</subtitle>
+  <type>bar</type>
+  <x-axis>Mar 2023|Mar 2025</x-axis>
+  <y-axis>100K|200K|300K</y-axis>
+  <y-max>3e+05</y-max>
+  <dataPoint>
+    <label>Mar 2023</label>
+    <value>85000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>85K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Apr 2023</label>
+    <value>216000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>216K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>May 2023</label>
+    <value>227000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>227K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Jun 2023</label>
+    <value>257000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>257K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Jul 2023</label>
+    <value>148000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>148K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Aug 2023</label>
+    <value>157000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>157K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Sep 2023</label>
+    <value>158000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>158K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Oct 2023</label>
+    <value>186000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>186K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Nov 2023</label>
+    <value>141000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>141K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Dec 2023</label>
+    <value>269000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>269K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Jan 2024</label>
+    <value>119000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>119K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Feb 2024</label>
+    <value>222000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>222K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Mar 2024</label>
+    <value>246000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>246K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Apr 2024</label>
+    <value>118000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>118K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>May 2024</label>
+    <value>193000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>193K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Jun 2024</label>
+    <value>87000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>87K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Jul 2024</label>
+    <value>88000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>88K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Aug 2024</label>
+    <value>71000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>71K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Sep 2024</label>
+    <value>240000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>240K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Oct 2024</label>
+    <value>44000</value>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
+    <valueToShow>44K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Nov 2024</label>
+    <value>261000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>261K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Dec 2024</label>
+    <value>323000</value>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
+    <valueToShow>323K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Jan 2025</label>
+    <value>111000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>111K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Feb 2025</label>
+    <value>117000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>117K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Mar 2025</label>
+    <value>228000</value>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
+    <valueToShow>228K</valueToShow>
+  </dataPoint>
+  <source>Buearu of Labor Statistics</source>
+  <date>As of Mar 2025</date>
+  <qualifier> </qualifier>
+</chart>
