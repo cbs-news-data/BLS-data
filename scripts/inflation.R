@@ -72,7 +72,7 @@ xml_yaxis <- "3%|6%|9%" #labels/values for y axis, only fill out in necessary
 xml_ymax <-  9 #float value for max value OF AXIS
 xml_source <- "Buearu of Labor Statistics"
 xml_date <- paste0("As of ", date_max_pretty)
-xml_type <- "bar" #line, bar, pie, etc
+xml_type <- "line" #line, bar, pie, etc
 xml_qualifier <- "Not seasonally adjusted" #one line note, if needed
 
 
