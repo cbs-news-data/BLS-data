@@ -2,10 +2,10 @@
 <chart>
   <title>Monthly changes in employment</title>
   <subtitle>Nonfarm payroll employment, seasonally adjusted</subtitle>
-  <type>bar</type>
+  <type>line</type>
   <x-axis>Mar 2023|Mar 2025</x-axis>
   <y-axis>100K|200K|300K</y-axis>
-  <y-max>3e+05</y-max>
+  <y-max>300000</y-max>
   <dataPoint>
     <label>Mar 2023</label>
     <value>85000</value>

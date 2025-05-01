@@ -11,6 +11,8 @@ library(stringr)
 library(xml2)
 library(lubridate)
 
+options(scipen = 999)
+
 # LNS14000000 Civilian unemployment rate
 
 civilian_unemployment_rate <- get_series_table('LNS14000000', start_year = 2019, end_year = 2025) %>% 
@@ -163,7 +165,7 @@ xml_yaxis <- "100K|200K|300K" #labels/values for y axis, only fill out in necess
 xml_ymax <-  300000 #float value for max value OF AXIS
 xml_source <- "Buearu of Labor Statistics"
 xml_date <- paste0("As of ", date_max_pretty)
-xml_type <- "bar" #line, bar, pie, etc
+xml_type <- "line" #line, bar, pie, etc
 xml_qualifier <- " " #one line note, if needed
 
 
