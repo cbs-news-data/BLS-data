@@ -3,16 +3,9 @@
   <title>Monthly changes in employment</title>
   <subtitle>Nonfarm payroll employment, seasonally adjusted</subtitle>
   <type>line</type>
-  <x-axis>Mar 2023|Mar 2025</x-axis>
+  <x-axis>Apr 2023|Apr 2025</x-axis>
   <y-axis>100K|200K|300K</y-axis>
   <y-max>300000</y-max>
-  <dataPoint>
-    <label>Mar 2023</label>
-    <value>85000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>85K</valueToShow>
-  </dataPoint>
   <dataPoint>
     <label>Apr 2023</label>
     <value>216000</value>
@@ -169,19 +162,26 @@
   </dataPoint>
   <dataPoint>
     <label>Feb 2025</label>
-    <value>117000</value>
+    <value>102000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>117K</valueToShow>
+    <valueToShow>102K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 2025</label>
-    <value>228000</value>
+    <value>185000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>185K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Apr 2025</label>
+    <value>177000</value>
     <showLabel>1</showLabel>
     <showValue>1</showValue>
-    <valueToShow>228K</valueToShow>
+    <valueToShow>177K</valueToShow>
   </dataPoint>
   <source>Buearu of Labor Statistics</source>
-  <date>As of Mar 2025</date>
+  <date>As of Apr 2025</date>
   <qualifier> </qualifier>
 </chart>

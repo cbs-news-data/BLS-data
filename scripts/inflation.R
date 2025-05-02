@@ -8,6 +8,7 @@ library(blsR)
 library(tidyverse)
 library(stringr)
 library(xml2)
+library(DatawRappr)
 
 #CUUR0000SA0 = not seasonally adjusted (using this for YoY change)
 #CUSR0000SA0 = seasonally adjusted
@@ -29,6 +30,24 @@ CPI <- get_series_table('CUUR0000SA0', start_year = 2019, end_year = 2025) %>%
 
 
 write.csv(CPI, "data/inflation_yoy.csv", row.names = FALSE)
+
+# Push to Datawrapper
+dw_api_key <- Sys.getenv("DW_KEY")
+
+max_date <- max(CPI$label)
+max_date_pretty <- format(max_date, "%B %Y")
+
+datawrapper_auth(api_key = dw_api_key)
+
+dw_data_to_chart(CPI, "6J6Hh", api_key = dw_api_key)
+
+dw_edit_chart(
+  chart_id = "6J6Hh",
+  api_key = dw_api_key,
+  annotate = paste0("Note: Data through ", max_date_pretty, ". Not seasonally adjusted.")
+)
+
+dw_publish_chart(chart_id = "6J6Hh")
 
 
 #get min and max labels
