@@ -16,7 +16,7 @@ options(scipen = 999)
 
 # Access the API key from an environment variable
 bls_key <- Sys.getenv("BLS_API_KEY")
-dw_api_key <- Sys.getenv("DW_KEY")
+dw_api_key <- Sys.getenv("DW_API_KEY")
 
 # LNS14000000 Civilian unemployment rate
 
@@ -31,6 +31,9 @@ civilian_unemployment_rate <- get_series_table('LNS14000000', start_year = 2019,
   rename(label = date)
 
 write.csv(civilian_unemployment_rate, "data/unemployment_rate.csv", row.names = FALSE)
+
+civilian_unemployment_rate_since2022 <- civilian_unemployment_rate %>% 
+  filter(label >= "2022-01-01")
 
 # Push to Datawrapper
 max_date <- max(civilian_unemployment_rate$label)
@@ -47,6 +50,22 @@ dw_edit_chart(
 )
 
 dw_publish_chart(chart_id = "ib3Ja")
+
+# Push to Datawrapper
+max_date <- max(civilian_unemployment_rate_since2022$label)
+max_date_pretty <- format(max_date, "%B %Y")
+
+datawrapper_auth(api_key = dw_api_key)
+
+dw_data_to_chart(civilian_unemployment_rate_since2022, "tZqDq", api_key = dw_api_key)
+
+dw_edit_chart(
+  chart_id = "tZqDq",
+  api_key = dw_api_key,
+  annotate = paste("Note: Data through", max_date_pretty)
+)
+
+dw_publish_chart(chart_id = "tZqDq")
 
 #get min and max labels
 date_max <- max(civilian_unemployment_rate$label)
@@ -125,9 +144,9 @@ write_xml(unemployment_chart, "data/unemployment_rate.xml")
 
 
 
-# CEU0000000001 Total nonfarm employment
+# CES0000000001 Total nonfarm employment
 
-total_nonfarm_employment <- get_series_table('CES0000000001', start_year = 2019, end_year = 2025, registrationKey = bls_key) %>%
+total_nonfarm_employment <- get_series_table('CES0000000001', start_year = 2021, end_year = 2025, registrationKey = bls_key) %>%
   mutate(month = str_sub(period, start=-2)) %>%
   mutate(year = as.character(year)) %>%
   mutate(month = as.character(month)) %>%
@@ -140,7 +159,8 @@ total_nonfarm_employment <- get_series_table('CES0000000001', start_year = 2019,
   select(label, employment_mom) %>%
   rename(value = employment_mom) %>%
   mutate(value = value*1000) %>% 
-  slice_tail(n = 25)
+  filter(label >= "2022-01-01")
+  #slice_tail(n = 25)
 
 
 write.csv(total_nonfarm_employment, "data/monthly_change_nonfarm_employment.csv", row.names = FALSE)
