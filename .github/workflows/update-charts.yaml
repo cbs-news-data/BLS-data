@@ -2,6 +2,11 @@ name: update-charts
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '30 12 5 9 *'    # Sept 5, 2025 @ 8:30 a.m. EDT 
+    - cron: '30 12 3 10 *'   # Oct 3, 2025 @ 8:30 a.m. EDT 
+    - cron: '30 13 7 11 *'   # Nov 7, 2025 @ 8:30 a.m. EST
+    - cron: '30 13 5 12 *'   # Dec 5, 2025 @ 8:30 a.m. EST
 
 jobs:
   run-scripts:
