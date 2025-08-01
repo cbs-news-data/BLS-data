@@ -1,0 +1,14 @@
+sector,previous_month,latest_month,net_change,latest_value
+Government,2025-06-01,2025-07-01,-10000,23569000
+Construction,2025-06-01,2025-07-01,2000,8310000
+Mining and logging,2025-06-01,2025-07-01,-4000,617000
+Professional and business services,2025-06-01,2025-07-01,-14000,22562000
+Leisure and hospitality,2025-06-01,2025-07-01,5000,17030000
+Other services,2025-06-01,2025-07-01,2000,6036000
+Financial activities,2025-06-01,2025-07-01,15000,9263000
+Private education and health services,2025-06-01,2025-07-01,79000,27409000
+Information,2025-06-01,2025-07-01,-2000,2939000
+Retail trade,2025-06-01,2025-07-01,15700,15577100
+Wholesale trade,2025-06-01,2025-07-01,-7800,6163700
+Utilities,2025-06-01,2025-07-01,-100,598400
+Transportation and warehousing,2025-06-01,2025-07-01,3600,6738200

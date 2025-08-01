@@ -3,261 +3,9 @@
   <title>Monthly unemployment rate</title>
   <subtitle>Civilians 16 years and older, seasonally adjusted</subtitle>
   <type>line</type>
-  <x-axis>Jan 2019|Apr 2025</x-axis>
+  <x-axis>Jan 2022|Jul 2025</x-axis>
   <y-axis>3%|6%|9%|12%|15%</y-axis>
   <y-max>15</y-max>
-  <dataPoint>
-    <label>Jan 2019</label>
-    <value>4</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>4%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Feb 2019</label>
-    <value>3.8</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>3.8%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Mar 2019</label>
-    <value>3.8</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>3.8%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Apr 2019</label>
-    <value>3.7</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>3.7%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>May 2019</label>
-    <value>3.6</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>3.6%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Jun 2019</label>
-    <value>3.6</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>3.6%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Jul 2019</label>
-    <value>3.7</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>3.7%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Aug 2019</label>
-    <value>3.6</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>3.6%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Sep 2019</label>
-    <value>3.5</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>3.5%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Oct 2019</label>
-    <value>3.6</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>3.6%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Nov 2019</label>
-    <value>3.6</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>3.6%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Dec 2019</label>
-    <value>3.6</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>3.6%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Jan 2020</label>
-    <value>3.6</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>3.6%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Feb 2020</label>
-    <value>3.5</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>3.5%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Mar 2020</label>
-    <value>4.4</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>4.4%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Apr 2020</label>
-    <value>14.8</value>
-    <showLabel>1</showLabel>
-    <showValue>1</showValue>
-    <valueToShow>14.8%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>May 2020</label>
-    <value>13.2</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>13.2%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Jun 2020</label>
-    <value>11</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>11%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Jul 2020</label>
-    <value>10.2</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>10.2%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Aug 2020</label>
-    <value>8.4</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>8.4%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Sep 2020</label>
-    <value>7.8</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>7.8%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Oct 2020</label>
-    <value>6.9</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>6.9%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Nov 2020</label>
-    <value>6.7</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>6.7%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Dec 2020</label>
-    <value>6.7</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>6.7%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Jan 2021</label>
-    <value>6.4</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>6.4%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Feb 2021</label>
-    <value>6.2</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>6.2%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Mar 2021</label>
-    <value>6.1</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>6.1%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Apr 2021</label>
-    <value>6.1</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>6.1%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>May 2021</label>
-    <value>5.8</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>5.8%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Jun 2021</label>
-    <value>5.9</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>5.9%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Jul 2021</label>
-    <value>5.4</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>5.4%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Aug 2021</label>
-    <value>5.1</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>5.1%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Sep 2021</label>
-    <value>4.7</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>4.7%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Oct 2021</label>
-    <value>4.5</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>4.5%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Nov 2021</label>
-    <value>4.2</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>4.2%</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Dec 2021</label>
-    <value>3.9</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>3.9%</valueToShow>
-  </dataPoint>
   <dataPoint>
     <label>Jan 2022</label>
     <value>4</value>
@@ -471,15 +219,15 @@
   <dataPoint>
     <label>Jul 2024</label>
     <value>4.2</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
     <valueToShow>4.2%</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 2024</label>
     <value>4.2</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
     <valueToShow>4.2%</valueToShow>
   </dataPoint>
   <dataPoint>
@@ -499,8 +247,8 @@
   <dataPoint>
     <label>Nov 2024</label>
     <value>4.2</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
     <valueToShow>4.2%</valueToShow>
   </dataPoint>
   <dataPoint>
@@ -527,8 +275,8 @@
   <dataPoint>
     <label>Mar 2025</label>
     <value>4.2</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
     <valueToShow>4.2%</valueToShow>
   </dataPoint>
   <dataPoint>
@@ -538,7 +286,28 @@
     <showValue>1</showValue>
     <valueToShow>4.2%</valueToShow>
   </dataPoint>
-  <source>Buearu of Labor Statistics</source>
-  <date>As of Apr 2025</date>
+  <dataPoint>
+    <label>May 2025</label>
+    <value>4.2</value>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
+    <valueToShow>4.2%</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Jun 2025</label>
+    <value>4.1</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>4.1%</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Jul 2025</label>
+    <value>4.2</value>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
+    <valueToShow>4.2%</valueToShow>
+  </dataPoint>
+  <source>Bureau of Labor Statistics</source>
+  <date>As of Jul 2025</date>
   <qualifier> </qualifier>
 </chart>
