@@ -48,7 +48,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run monthly unemployment script
-        run: Rscript scripts/monthly-employment.R
+        run: Rscript scripts/monthly-unemployment.R
         
       - name: Run monthly jobs script
         run: Rscript scripts/monthly-jobs.R
