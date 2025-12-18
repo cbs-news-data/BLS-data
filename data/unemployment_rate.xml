@@ -3,15 +3,15 @@
   <title>Monthly unemployment rate</title>
   <subtitle>Civilians 16 years and older, seasonally adjusted</subtitle>
   <type>line</type>
-  <x-axis>Jan 2022|Sep 2025</x-axis>
+  <x-axis>Jan 2022|Nov 2025</x-axis>
   <y-axis>3%|6%|9%|12%|15%</y-axis>
   <y-max>15</y-max>
   <dataPoint>
     <label>Jan 2022</label>
-    <value>4</value>
+    <value>4.0</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>4%</valueToShow>
+    <valueToShow>4.0%</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 2022</label>
@@ -114,8 +114,8 @@
   <dataPoint>
     <label>Apr 2023</label>
     <value>3.4</value>
-    <showLabel>1</showLabel>
-    <showValue>1</showValue>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
     <valueToShow>3.4%</valueToShow>
   </dataPoint>
   <dataPoint>
@@ -204,10 +204,10 @@
   </dataPoint>
   <dataPoint>
     <label>May 2024</label>
-    <value>4</value>
+    <value>4.0</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>4%</valueToShow>
+    <valueToShow>4.0%</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 2024</label>
@@ -260,10 +260,10 @@
   </dataPoint>
   <dataPoint>
     <label>Jan 2025</label>
-    <value>4</value>
+    <value>4.0</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>4%</valueToShow>
+    <valueToShow>4.0%</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 2025</label>
@@ -317,11 +317,25 @@
   <dataPoint>
     <label>Sep 2025</label>
     <value>4.4</value>
-    <showLabel>1</showLabel>
-    <showValue>1</showValue>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
     <valueToShow>4.4%</valueToShow>
   </dataPoint>
+  <dataPoint>
+    <label>Oct 2025</label>
+    <value>-</value>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
+    <valueToShow>-%</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Nov 2025</label>
+    <value>4.6</value>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
+    <valueToShow>4.6%</valueToShow>
+  </dataPoint>
   <source>Bureau of Labor Statistics</source>
-  <date>As of Sep 2025</date>
+  <date>As of Nov 2025</date>
   <qualifier> </qualifier>
 </chart>
