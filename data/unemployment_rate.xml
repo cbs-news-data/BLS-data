@@ -3,7 +3,7 @@
   <title>Monthly unemployment rate</title>
   <subtitle>Civilians 16 years and older, seasonally adjusted</subtitle>
   <type>line</type>
-  <x-axis>Jan 2022|Nov 2025</x-axis>
+  <x-axis>Jan 2022|Dec 2025</x-axis>
   <y-axis>3%|6%|9%|12%|15%</y-axis>
   <y-max>15</y-max>
   <dataPoint>
@@ -15,10 +15,10 @@
   </dataPoint>
   <dataPoint>
     <label>Feb 2022</label>
-    <value>3.8</value>
+    <value>3.9</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>3.8%</valueToShow>
+    <valueToShow>3.9%</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 2022</label>
@@ -148,10 +148,10 @@
   </dataPoint>
   <dataPoint>
     <label>Sep 2023</label>
-    <value>3.8</value>
+    <value>3.7</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>3.8%</valueToShow>
+    <valueToShow>3.7%</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 2023</label>
@@ -204,10 +204,10 @@
   </dataPoint>
   <dataPoint>
     <label>May 2024</label>
-    <value>4.0</value>
+    <value>3.9</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>4.0%</valueToShow>
+    <valueToShow>3.9%</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 2024</label>
@@ -267,10 +267,10 @@
   </dataPoint>
   <dataPoint>
     <label>Feb 2025</label>
-    <value>4.1</value>
+    <value>4.2</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>4.1%</valueToShow>
+    <valueToShow>4.2%</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 2025</label>
@@ -288,10 +288,10 @@
   </dataPoint>
   <dataPoint>
     <label>May 2025</label>
-    <value>4.2</value>
+    <value>4.3</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>4.2%</valueToShow>
+    <valueToShow>4.3%</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 2025</label>
@@ -302,10 +302,10 @@
   </dataPoint>
   <dataPoint>
     <label>Jul 2025</label>
-    <value>4.2</value>
+    <value>4.3</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>4.2%</valueToShow>
+    <valueToShow>4.3%</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 2025</label>
@@ -330,12 +330,19 @@
   </dataPoint>
   <dataPoint>
     <label>Nov 2025</label>
-    <value>4.6</value>
+    <value>4.5</value>
     <showLabel>1</showLabel>
     <showValue>1</showValue>
-    <valueToShow>4.6%</valueToShow>
+    <valueToShow>4.5%</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Dec 2025</label>
+    <value>4.4</value>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
+    <valueToShow>4.4%</valueToShow>
   </dataPoint>
   <source>Bureau of Labor Statistics</source>
-  <date>As of Nov 2025</date>
+  <date>As of Dec 2025</date>
   <qualifier> </qualifier>
 </chart>

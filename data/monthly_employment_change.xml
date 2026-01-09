@@ -3,7 +3,7 @@
   <title>Monthly changes in employment</title>
   <subtitle>Nonfarm payroll employment, seasonally adjusted</subtitle>
   <type>line</type>
-  <x-axis>Feb 2022|Nov 2025</x-axis>
+  <x-axis>Feb 2022|Dec 2025</x-axis>
   <y-axis>100K|200K|300K</y-axis>
   <y-max>300000</y-max>
   <dataPoint>
@@ -316,19 +316,26 @@
   </dataPoint>
   <dataPoint>
     <label>Oct 2025</label>
-    <value>-105000</value>
+    <value>-173000</value>
     <showLabel>1</showLabel>
     <showValue>1</showValue>
-    <valueToShow>-105K</valueToShow>
+    <valueToShow>-173K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 2025</label>
-    <value>64000</value>
+    <value>56000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>56K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Dec 2025</label>
+    <value>50000</value>
     <showLabel>1</showLabel>
     <showValue>1</showValue>
-    <valueToShow>64K</valueToShow>
+    <valueToShow>50K</valueToShow>
   </dataPoint>
   <source>Bureau of Labor Statistics</source>
-  <date>As of Nov 2025</date>
+  <date>As of Dec 2025</date>
   <qualifier> </qualifier>
 </chart>
