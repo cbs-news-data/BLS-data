@@ -46,7 +46,7 @@ dw_data_to_chart(civilian_unemployment_rate, "tZqDq", api_key = dw_api_key)
 dw_edit_chart(
   chart_id = "tZqDq",
   api_key = dw_api_key,
-  annotate = paste("Data through", max_date_pretty, "<br>Note: Data is seasonally adjusted.")
+  annotate = paste("Data through", max_date_pretty, "<br>Note: Data is seasonally adjusted. October 2025 data is not available due to the government shutdown.")
 )
 
 dw_publish_chart(chart_id = "tZqDq")
@@ -97,7 +97,7 @@ xml_ymax <- ticks_max
 xml_source <- "Bureau of Labor Statistics"
 xml_date <- paste0("As of ", date_max_pretty)
 xml_type <- "line"
-xml_qualifier <- " "
+xml_qualifier <- "October 2025 data is not available due to the government shutdown."
 
 # Create chart node
 unemployment_chart <- xml_new_root("chart")
