@@ -92,8 +92,8 @@ civilian_unemployment_rate_forXML <- civilian_unemployment_rate %>%
 # -----------------------------
 xml_title <- "Monthly unemployment rate"
 xml_subtitle <- "Civilians 16 years and older, seasonally adjusted"
-xml_yaxis <- "3%|6%|9%|12%|15%"
-xml_ymax <- 15
+xml_yaxis <- ticks_string
+xml_ymax <- ticks_max
 xml_source <- "Bureau of Labor Statistics"
 xml_date <- paste0("As of ", date_max_pretty)
 xml_type <- "line"
