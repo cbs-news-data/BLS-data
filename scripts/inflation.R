@@ -20,13 +20,16 @@ CPI <- get_series_table('CUUR0000SA0', start_year = 2019, end_year = 2025) %>%
   mutate(month = as.character(month)) %>% 
   mutate(date = paste0(year, "-", month, "-01")) %>% 
   mutate(date = as.Date(date)) %>% 
+  mutate(value = str_replace_all(value, "-", "0")) %>% 
   arrange(date) %>%
+  mutate(value = as.numeric(value)) %>% 
   mutate(inflation_yoy = (value / lag(value, 12) - 1) * 100) %>% 
   mutate(inflation_yoy = round(inflation_yoy, digits = 1)) %>% 
   filter(!is.na(inflation_yoy)) %>% 
   select(date, inflation_yoy) %>% 
   rename(label=date,
-         value=inflation_yoy)
+         value=inflation_yoy) %>% 
+  filter(label != "2025-10-01")
 
 
 write.csv(CPI, "data/inflation_yoy.csv", row.names = FALSE)
@@ -44,7 +47,7 @@ dw_data_to_chart(CPI, "6J6Hh", api_key = dw_api_key)
 dw_edit_chart(
   chart_id = "6J6Hh",
   api_key = dw_api_key,
-  annotate = paste0("Note: Data through ", max_date_pretty, ". Not seasonally adjusted.")
+  annotate = paste0("Note: Data through ", max_date_pretty, ". Not seasonally adjusted. October 2025 data is not available due to the government shutdown.")
 )
 
 dw_publish_chart(chart_id = "6J6Hh")
@@ -92,7 +95,7 @@ xml_ymax <-  9 #float value for max value OF AXIS
 xml_source <- "Buearu of Labor Statistics"
 xml_date <- paste0("As of ", date_max_pretty)
 xml_type <- "line" #line, bar, pie, etc
-xml_qualifier <- "Not seasonally adjusted" #one line note, if needed
+xml_qualifier <- "Not seasonally adjusted. October 2025 data is not available due to the government shutdown." #one line note, if needed
 
 
 
