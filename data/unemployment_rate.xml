@@ -114,8 +114,8 @@
   <dataPoint>
     <label>Apr 2023</label>
     <value>3.4</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
     <valueToShow>3.4%</valueToShow>
   </dataPoint>
   <dataPoint>
@@ -323,10 +323,10 @@
   </dataPoint>
   <dataPoint>
     <label>Oct 2025</label>
-    <value>-</value>
-    <showLabel>1</showLabel>
-    <showValue>1</showValue>
-    <valueToShow>-%</valueToShow>
+    <value/>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>%</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 2025</label>

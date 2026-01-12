@@ -29,7 +29,8 @@ civilian_unemployment_rate <- get_series_table(
     date = as.Date(paste0(year, "-", month, "-01"))
   ) %>%
   arrange(date) %>%
-  select(label = date, value)
+  select(label = date, value) %>% 
+  mutate(value = str_replace_all(value, "-", ""))
 
 # Save CSV
 write.csv(civilian_unemployment_rate, "data/unemployment_rate.csv", row.names = FALSE)
@@ -53,8 +54,24 @@ dw_publish_chart(chart_id = "tZqDq")
 # --- Prepare XML Version ---
 date_min <- min(civilian_unemployment_rate$label)
 date_max <- max(civilian_unemployment_rate$label)
-value_min <- min(civilian_unemployment_rate$value)
+#value_min <- min(civilian_unemployment_rate$value)
+value_min <- civilian_unemployment_rate %>% 
+  filter(value != "") %>% 
+  summarise(min_value = min(value, na.rm = TRUE)) %>% 
+  pull(min_value)
 value_max <- max(civilian_unemployment_rate$value)
+value_max_rounded <- round(as.numeric(value_max), digits = 0)
+value_min_rounded <- round(as.numeric(value_min), digits = 0)
+
+# Generate 4 to 5 axis ticks using pretty()
+ticks <- pretty(c(0, value_max), n = 4)
+#get max ticks value
+ticks_max <- max(ticks)
+# Convert to character string with "|" separator
+ticks_string <- paste0(ticks, "%", collapse = "|")
+ticks_string <- str_replace(ticks_string, "0%", "")
+ticks_string <- str_replace(ticks_string, "\\|", "")
+
 
 # Format axis labels
 date_min_pretty <- str_replace_all(format(date_min, "%b %Y"), " 0", " ")
