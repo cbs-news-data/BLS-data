@@ -3,10 +3,16 @@ name: update-charts
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 12 5 9 *'    # Sept 5, 2025 @ 8:30 a.m. EDT 
-    - cron: '45 12 3 10 *'   # Oct 3, 2025 @ 8:30 a.m. EDT 
-    - cron: '45 13 7 11 *'   # Nov 7, 2025 @ 8:30 a.m. EST
-    - cron: '45 13 5 12 *'   # Dec 5, 2025 @ 8:30 a.m. EST
+    - cron: '45 12 6 3 *'    # Mar 6, 2026 @ 8:45 a.m. EDT
+    - cron: '45 12 3 4 *'    # Apr 3, 2026 @ 8:45 a.m. EDT
+    - cron: '45 12 8 5 *'    # May 8, 2026 @ 8:45 a.m. EDT
+    - cron: '45 12 5 6 *'    # Jun 5, 2026 @ 8:45 a.m. EDT
+    - cron: '45 12 2 7 *'    # Jul 2, 2026 @ 8:45 a.m. EDT
+    - cron: '45 12 7 8 *'    # Aug 7, 2026 @ 8:45 a.m. EDT
+    - cron: '45 12 4 9 *'    # Sep 4, 2026 @ 8:45 a.m. EDT
+    - cron: '45 12 2 10 *'   # Oct 2, 2026 @ 8:45 a.m. EDT
+    - cron: '45 13 6 11 *'   # Nov 6, 2026 @ 8:45 a.m. EST
+    - cron: '45 13 4 12 *'   # Dec 4, 2026 @ 8:45 a.m. EST
 
 jobs:
   run-scripts:
