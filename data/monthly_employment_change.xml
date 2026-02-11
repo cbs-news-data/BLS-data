@@ -8,199 +8,199 @@
   <y-max>300000</y-max>
   <dataPoint>
     <label>Feb 2022</label>
-    <value>869000</value>
+    <value>819000</value>
     <showLabel>1</showLabel>
     <showValue>1</showValue>
-    <valueToShow>869K</valueToShow>
+    <valueToShow>819K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 2022</label>
-    <value>471000</value>
+    <value>490000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>471K</valueToShow>
+    <valueToShow>490K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 2022</label>
-    <value>305000</value>
+    <value>308000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>305K</valueToShow>
+    <valueToShow>308K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 2022</label>
+    <value>301000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>301K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Jun 2022</label>
+    <value>434000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>434K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Jul 2022</label>
+    <value>714000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>714K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Aug 2022</label>
+    <value>290000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>290K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Sep 2022</label>
+    <value>220000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>220K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Oct 2022</label>
+    <value>357000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>357K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Nov 2022</label>
+    <value>303000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>303K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Dec 2022</label>
+    <value>100000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>100K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Jan 2023</label>
+    <value>434000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>434K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Feb 2023</label>
+    <value>290000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>290K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Mar 2023</label>
+    <value>68000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>68K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Apr 2023</label>
     <value>241000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
     <valueToShow>241K</valueToShow>
   </dataPoint>
   <dataPoint>
-    <label>Jun 2022</label>
-    <value>461000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>461K</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Jul 2022</label>
-    <value>696000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>696K</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Aug 2022</label>
-    <value>237000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>237K</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Sep 2022</label>
-    <value>227000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>227K</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Oct 2022</label>
-    <value>400000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>400K</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Nov 2022</label>
-    <value>297000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>297K</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Dec 2022</label>
-    <value>126000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>126K</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Jan 2023</label>
-    <value>444000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>444K</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Feb 2023</label>
-    <value>306000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>306K</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Mar 2023</label>
-    <value>85000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>85K</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Apr 2023</label>
-    <value>216000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>216K</valueToShow>
-  </dataPoint>
-  <dataPoint>
     <label>May 2023</label>
-    <value>227000</value>
+    <value>280000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>227K</valueToShow>
+    <valueToShow>280K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 2023</label>
-    <value>257000</value>
+    <value>225000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>257K</valueToShow>
+    <valueToShow>225K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 2023</label>
-    <value>148000</value>
+    <value>163000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>148K</valueToShow>
+    <valueToShow>163K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 2023</label>
-    <value>157000</value>
+    <value>218000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>157K</valueToShow>
+    <valueToShow>218K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 2023</label>
-    <value>158000</value>
+    <value>156000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>158K</valueToShow>
+    <valueToShow>156K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 2023</label>
-    <value>186000</value>
+    <value>159000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>186K</valueToShow>
+    <valueToShow>159K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 2023</label>
-    <value>141000</value>
+    <value>127000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>141K</valueToShow>
+    <valueToShow>127K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 2023</label>
-    <value>269000</value>
+    <value>154000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>269K</valueToShow>
+    <valueToShow>154K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 2024</label>
-    <value>119000</value>
+    <value>175000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>119K</valueToShow>
+    <valueToShow>175K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 2024</label>
-    <value>222000</value>
+    <value>206000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>222K</valueToShow>
+    <valueToShow>206K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 2024</label>
-    <value>246000</value>
+    <value>228000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>246K</valueToShow>
+    <valueToShow>228K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 2024</label>
-    <value>118000</value>
+    <value>64000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>118K</valueToShow>
+    <valueToShow>64K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 2024</label>
-    <value>193000</value>
+    <value>78000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>193K</valueToShow>
+    <valueToShow>78K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 2024</label>
@@ -211,129 +211,129 @@
   </dataPoint>
   <dataPoint>
     <label>Jul 2024</label>
-    <value>88000</value>
+    <value>53000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>88K</valueToShow>
+    <valueToShow>53K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 2024</label>
-    <value>71000</value>
+    <value>9000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>71K</valueToShow>
+    <valueToShow>9K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 2024</label>
-    <value>240000</value>
+    <value>155000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>240K</valueToShow>
+    <valueToShow>155K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 2024</label>
-    <value>44000</value>
+    <value>33000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>44K</valueToShow>
+    <valueToShow>33K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 2024</label>
-    <value>261000</value>
+    <value>134000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>261K</valueToShow>
+    <valueToShow>134K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 2024</label>
-    <value>323000</value>
+    <value>237000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>323K</valueToShow>
+    <valueToShow>237K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 2025</label>
-    <value>111000</value>
+    <value>-48000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>111K</valueToShow>
+    <valueToShow>-48K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 2025</label>
-    <value>102000</value>
+    <value>42000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>102K</valueToShow>
+    <valueToShow>42K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 2025</label>
-    <value>120000</value>
+    <value>67000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>120K</valueToShow>
+    <valueToShow>67K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 2025</label>
-    <value>158000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>158K</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>May 2025</label>
-    <value>19000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>19K</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Jun 2025</label>
-    <value>-13000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>-13K</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Jul 2025</label>
-    <value>72000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>72K</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Aug 2025</label>
-    <value>-26000</value>
-    <showLabel>0</showLabel>
-    <showValue>0</showValue>
-    <valueToShow>-26K</valueToShow>
-  </dataPoint>
-  <dataPoint>
-    <label>Sep 2025</label>
     <value>108000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
     <valueToShow>108K</valueToShow>
   </dataPoint>
   <dataPoint>
+    <label>May 2025</label>
+    <value>13000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>13K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Jun 2025</label>
+    <value>-20000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>-20K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Jul 2025</label>
+    <value>64000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>64K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Aug 2025</label>
+    <value>-70000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>-70K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Sep 2025</label>
+    <value>76000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>76K</valueToShow>
+  </dataPoint>
+  <dataPoint>
     <label>Oct 2025</label>
-    <value>-173000</value>
+    <value>-140000</value>
     <showLabel>1</showLabel>
     <showValue>1</showValue>
-    <valueToShow>-173K</valueToShow>
+    <valueToShow>-140K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 2025</label>
-    <value>56000</value>
+    <value>41000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>56K</valueToShow>
+    <valueToShow>41K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 2025</label>
-    <value>50000</value>
+    <value>48000</value>
     <showLabel>1</showLabel>
     <showValue>1</showValue>
-    <valueToShow>50K</valueToShow>
+    <valueToShow>48K</valueToShow>
   </dataPoint>
   <source>Bureau of Labor Statistics</source>
   <date>As of Dec 2025</date>
