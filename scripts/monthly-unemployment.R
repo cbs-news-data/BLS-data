@@ -20,7 +20,7 @@ dw_api_key <- Sys.getenv("DW_API_KEY")
 civilian_unemployment_rate <- get_series_table(
   'LNS14000000', 
   start_year = 2022, 
-  end_year = 2025, 
+  end_year = 2026, 
   registrationKey = bls_key
 ) %>%
   mutate(

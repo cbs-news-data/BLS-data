@@ -3,7 +3,7 @@
   <title>Inflation year-over-year</title>
   <subtitle>U.S. city average for all items</subtitle>
   <type>line</type>
-  <x-axis>Jan 2020|Nov 2025</x-axis>
+  <x-axis>Jan 2020|Dec 2025</x-axis>
   <y-axis>3%|6%|9%</y-axis>
   <y-max>9</y-max>
   <dataPoint>
@@ -492,11 +492,18 @@
   <dataPoint>
     <label>Nov 2025</label>
     <value>2.7</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>2.7%</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Dec 2025</label>
+    <value>2.7</value>
     <showLabel>1</showLabel>
     <showValue>1</showValue>
     <valueToShow>2.7%</valueToShow>
   </dataPoint>
   <source>Buearu of Labor Statistics</source>
-  <date>As of Nov 2025</date>
+  <date>As of Dec 2025</date>
   <qualifier>Not seasonally adjusted. October 2025 data is not available due to the government shutdown.</qualifier>
 </chart>

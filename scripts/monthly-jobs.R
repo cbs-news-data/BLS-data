@@ -22,7 +22,7 @@ dw_api_key <- Sys.getenv("DW_API_KEY")
 total_nonfarm_employment <- get_series_table(
   "CES0000000001",
   start_year = 2022,
-  end_year = 2025,
+  end_year = 2026,
   registrationKey = bls_key
 ) %>%
   mutate(

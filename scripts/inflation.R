@@ -14,7 +14,7 @@ library(DatawRappr)
 #CUSR0000SA0 = seasonally adjusted
 
 # Get CPI (all urban consumers, U.S. city average, all items, not seasonally adjusted)
-CPI <- get_series_table('CUUR0000SA0', start_year = 2019, end_year = 2025) %>% 
+CPI <- get_series_table('CUUR0000SA0', start_year = 2019, end_year = 2026) %>% 
   mutate(month = str_sub(period, start=-2)) %>% 
   mutate(year = as.character(year)) %>% 
   mutate(month = as.character(month)) %>% 

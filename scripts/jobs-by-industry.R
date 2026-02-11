@@ -40,7 +40,7 @@ get_latest_net_change <- function(series_id, sector_name) {
   df <- get_series_table(
     series_id,
     start_year = 2024,
-    end_year = 2025,
+    end_year = 2026,
     registrationKey = bls_key
   ) %>%
     mutate(
