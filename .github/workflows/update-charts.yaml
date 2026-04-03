@@ -70,3 +70,53 @@ jobs:
           git add .
           git diff --cached --quiet || git commit -m 'Update results from R scripts'
           git push origin || echo "No changes to push"
+      - name: Notify Slack on success
+        if: success()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          curl -X POST "$SLACK_WEBHOOK_URL" \
+            -H 'Content-type: application/json' \
+            --data '{
+              "blocks": [
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "📊 Jobs Data Updated"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "The latest jobs charts are *live*. See <https://www.datawrapper.de/_/XlGvQ/|jobs> and <https://www.datawrapper.de/_/tZqDq/|unemployment rates>.\n\ncc: @moneywatch @paula.cohen"
+                  }
+                }
+              ]
+            }'
+      - name: Notify Slack on failure
+        if: failure()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          curl -X POST "$SLACK_WEBHOOK_URL" \
+            -H 'Content-type: application/json' \
+            --data '{
+              "blocks": [
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "❌ Jobs data update failed"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "The *update-viz* workflow encountered an error. Charts may not be up to date.\n\ncc: @Grace Manthey"
+                  }
+                }
+              ]
+            }'    
