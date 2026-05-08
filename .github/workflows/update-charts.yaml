@@ -115,7 +115,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "The *update-viz* workflow encountered an error. Charts may not be up to date.\n\ncc: @Grace Manthey"
+                    "text": "The *update-viz* workflow encountered an error. Charts may not be up to date.\n\ncc: @data-team-gfx @moneywatch"
                   }
                 }
               ]
