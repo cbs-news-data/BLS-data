@@ -3,7 +3,7 @@
   <title>Monthly unemployment rate</title>
   <subtitle>Civilians 16 years and older, seasonally adjusted</subtitle>
   <type>line</type>
-  <x-axis>Jan 2022|May 2026</x-axis>
+  <x-axis>Jan 2022|Jun 2026</x-axis>
   <y-axis>1%|2%|3%|4%|5%</y-axis>
   <y-max>5</y-max>
   <dataPoint>
@@ -373,11 +373,18 @@
   <dataPoint>
     <label>May 2026</label>
     <value>4.3</value>
-    <showLabel>1</showLabel>
-    <showValue>1</showValue>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
     <valueToShow>4.3%</valueToShow>
   </dataPoint>
+  <dataPoint>
+    <label>Jun 2026</label>
+    <value>4.2</value>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
+    <valueToShow>4.2%</valueToShow>
+  </dataPoint>
   <source>Bureau of Labor Statistics</source>
-  <date>As of May 2026</date>
+  <date>As of Jun 2026</date>
   <qualifier>October 2025 data is not available due to the government shutdown.</qualifier>
 </chart>
