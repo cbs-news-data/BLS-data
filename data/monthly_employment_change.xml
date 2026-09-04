@@ -3,7 +3,7 @@
   <title>Monthly changes in employment</title>
   <subtitle>Nonfarm payroll employment, seasonally adjusted</subtitle>
   <type>line</type>
-  <x-axis>Feb 2022|Jul 2026</x-axis>
+  <x-axis>Feb 2022|Aug 2026</x-axis>
   <y-axis>100K|200K|300K</y-axis>
   <y-max>300000</y-max>
   <dataPoint>
@@ -372,19 +372,26 @@
   </dataPoint>
   <dataPoint>
     <label>Jun 2026</label>
-    <value>20000</value>
+    <value>31000</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>20K</valueToShow>
+    <valueToShow>31K</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 2026</label>
-    <value>-23000</value>
+    <value>21000</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>21K</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Aug 2026</label>
+    <value>162000</value>
     <showLabel>1</showLabel>
     <showValue>1</showValue>
-    <valueToShow>-23K</valueToShow>
+    <valueToShow>162K</valueToShow>
   </dataPoint>
   <source>Bureau of Labor Statistics</source>
-  <date>As of Jul 2026</date>
+  <date>As of Aug 2026</date>
   <qualifier> </qualifier>
 </chart>
